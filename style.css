@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 3%;
+}
+
+.cabecalho h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.cabecalho img {
+  padding: 30px;
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto;
+}
+.cabecalho p {
+  text-align: center;
+  font-size: 40px;
+  width: 800px;
+  display: block;
+  margin: 0px auto;
+}
+
+div {
+  border: 2px solid blue;
+}
