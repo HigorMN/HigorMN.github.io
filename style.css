@@ -59,7 +59,7 @@ header nav {
   border-radius: 50%;
   display: block;
   margin: 0px auto;
-  box-shadow: 5px 10px 50px 5px gray;
+  box-shadow: 5px 10px 40px 5px #373737;
   width: 250px;
 }
 .cabecalho p {
