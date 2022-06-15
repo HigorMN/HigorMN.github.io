@@ -12,11 +12,11 @@ body {
 
 /* menu */
 header {
-height: 50px;
-display: flex;
-justify-content: space-between;
-border-bottom: 1px solid #373737;
-margin-bottom: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #373737;
+  margin-bottom: 50px;
 }
 
 header a {
@@ -26,7 +26,7 @@ header a {
 }
 
 header a:hover {
-color: #2fc18c;
+  color: #2fc18c;
 }
 
 header li {
@@ -35,8 +35,8 @@ header li {
 }
 
 header ul {
- display:  flex;
- margin: 10px;
+  display: flex;
+  margin: 10px;
 }
 header nav {
   padding-right: 20px;
@@ -91,4 +91,19 @@ header nav {
 h4 {
   text-align: center;
   padding: 10px;
+}
+
+/* footer */
+
+footer {
+  height: 70px;
+  border-top: 1px solid #373737;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer h3 {
+  padding: 20px;
 }
