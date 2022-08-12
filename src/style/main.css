@@ -1,12 +1,29 @@
 /* CABEÇALHO */
 .header {
-  height: 50px;
   display: flex;
   justify-content: space-around;
   align-content: center;
   border-bottom: 1px solid #37373734;
+  max-height: 50px;
   margin-bottom: 50px;
   background-color: white;
+}
+
+.header nav {
+  display: flex;
+  align-self: center;
+  height: 50px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: auto;
+}
+
+.header li {
+  margin: 10px;
 }
 
 .link {
@@ -17,19 +34,5 @@
 
 .link:hover {
   color: black;
-}
-
-.header li {
-  list-style-type: none;
-  padding-left: 20px;
-}
-
-.header ul {
-  display: flex;
-  margin: 10px;
-}
-
-.header nav {
-  padding-right: 20px;
 }
 /*  CABEÇALHO */
