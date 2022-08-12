@@ -20,6 +20,12 @@ body {
   background-color: white;
 }
 
+.header div {
+  display: flex;
+  align-self: center;
+  letter-spacing: 4px;
+}
+
 .header nav {
   display: flex;
   align-self: center;
@@ -40,10 +46,19 @@ body {
 .link {
   text-decoration: none;
   color: #8d8d8d;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .link:hover {
   color: black;
+}
+
+.header button {
+  font-family: monospace;
+  font-size: 18px;
+  max-height: 50px;
+  padding: 4px 15px 4px 15px;
+  border: 1px solid #8d8d8d76;
+  border-radius: 5px;
 }
 /*  CABEÇALHO */
