@@ -53,7 +53,7 @@ body {
   color: black;
 }
 
-.header button {
+.button {
   font-family: monospace;
   font-size: 18px;
   max-height: 50px;
