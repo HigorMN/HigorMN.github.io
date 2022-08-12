@@ -1,0 +1,33 @@
+/* CABEÇALHO */
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border-bottom: 1px solid #37373734;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: #8d8d8d;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: black;
+}
+
+header li {
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+header ul {
+  display: flex;
+  margin: 10px;
+}
+header nav {
+  padding-right: 20px;
+}
