@@ -19,15 +19,17 @@
   color: black;
 }
 
-header li {
+.header li {
   list-style-type: none;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
-header ul {
+.header ul {
   display: flex;
   margin: 10px;
 }
-header nav {
+
+.header nav {
   padding-right: 20px;
 }
+/*  CABEÇALHO */
