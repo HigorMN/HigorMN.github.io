@@ -84,3 +84,22 @@ body {
   transition: .5s;
 }
 
+#minha-foto {
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto;
+  box-shadow: 5px 10px 40px 5px #373737;
+  width: 300px;
+}
+
+.main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.trybe {
+  color: #2fc18c;
+  text-decoration: none;
+}
