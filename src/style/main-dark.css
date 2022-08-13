@@ -64,6 +64,17 @@ body {
   color: white;
   transition: color 0.5s;
 }
+
+.lamp {
+  max-width: 30px;
+  max-height: 30px;
+  margin: 8px;
+}
+
+.lamp:hover {
+  cursor: pointer;
+}
+
 /*  CABEÇALHO */
 
 .button {
