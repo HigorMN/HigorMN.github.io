@@ -84,6 +84,11 @@ body {
   transition: .5s;
 }
 
+main {
+  margin: auto;
+  margin-top: 50px;
+}
+
 #minha-foto {
   border-radius: 50%;
   display: block;
@@ -93,13 +98,11 @@ body {
 }
 
 .conteudo {
-  margin: auto;
-  margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: space-around;
   font-size: 20px;
   max-width: 1200px;
+  margin: auto;
 }
 
 .conteudo h1 {
@@ -113,4 +116,17 @@ body {
 
 .frase {
   margin-top: 50px;
+}
+
+footer {
+  position: absolute; 
+  bottom: 0px; 
+  width: 100%; 
+  height: 50px; 
+  border-top: 1px solid #37373734;
+  text-align: center;
+}
+
+footer h3{
+  margin: 10px;
 }
