@@ -4,7 +4,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header">
-        <ul>
+        <ul className="navLinks">
           <li id="inicio">
             <a href="#inicio">Início</a>
           </li>
