@@ -6,19 +6,19 @@ class Header extends React.Component {
       <header className="header">
         <ul>
           <li id="inicio">
-            <a href="inicio">Início</a>
+            <a href="#inicio">Início</a>
           </li>
           <li>
-            <a href="sobre">Sobre</a>
+            <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="projetos">Projetos</a>
+            <a href="#projetos">Projetos</a>
           </li>
           <li>
-            <a href="habilidades">Habilidades</a>
+            <a href="#habilidades">Habilidades</a>
           </li>
           <li>
-            <a href="contato">Contato</a>
+            <a href="#contato">Contato</a>
           </li>
         </ul>
       </header>
