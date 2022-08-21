@@ -6,19 +6,19 @@ class Header extends React.Component {
       <header className="header">
         <ul className="navLinks">
           <li id="inicio">
-            <a href="#inicio">Início</a>
+            <a href="#inicio">INÍCIO</a>
           </li>
           <li>
-            <a href="#sobre">Sobre</a>
+            <a href="#sobre">SOBRE</a>
           </li>
           <li>
-            <a href="#projetos">Projetos</a>
+            <a href="#projetos">PROJETOS</a>
           </li>
           <li>
-            <a href="#habilidades">Habilidades</a>
+            <a href="#habilidades">HABILIDADES</a>
           </li>
           <li>
-            <a href="#contato">Contato</a>
+            <a href="#contato">CONTATO</a>
           </li>
         </ul>
       </header>
