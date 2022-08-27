@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 60px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navLinks {
