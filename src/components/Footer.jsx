@@ -3,13 +3,12 @@ import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
 import github from '../images/github.png';
 
-export default class Home extends Component {
+export default class Footer extends Component {
   render() {
     return (
-      <div className="home border-btt">
-        <h3>Olá, eu sou</h3>
-        <h1>Higor Maranhão</h1>
-        <h3>Fullstack Develover</h3>
+      <footer className="footer">
+        <h2 className="h2">Contato</h2>
+        <p>Estamos a um click de distância!!</p>
         <nav className="contact-nav-container">
           <a href="https://github.com/HigorMN" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub do Higor" />
@@ -25,7 +24,7 @@ export default class Home extends Component {
             <img src={linkedin} alt="Linkedin do Higor" />
           </a>
         </nav>
-      </div>
+      </footer>
     );
   }
 }

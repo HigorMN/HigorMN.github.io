@@ -1,8 +1,8 @@
 .header {
   display: flex;
   height: 60px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 18px;
+  background: linear-gradient(-45deg, #0b0c0c, #1B262C, #1B262C, #0b0c0c);
 }
 
 .header-nav-link {

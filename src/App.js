@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './Pages/Home';
 import './css/Main.css'
 import './css/Header.css'
+import Footer from './components/Footer';
 
 
 export default class App extends Component {
@@ -16,6 +17,7 @@ export default class App extends Component {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </>
     )
   }

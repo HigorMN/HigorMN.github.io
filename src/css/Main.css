@@ -6,7 +6,6 @@
 }
 
 .body {
-  background-size: cover;
   background: linear-gradient(-45deg, #0b0c0c, #1B262C, #1B262C, #0b0c0c);
   color: white;
   text-align: center;
@@ -18,12 +17,50 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.border-btt {
+ border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .home {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   line-height: 350%;
-  height: 60vh;
   font-size: 24px;
+  background-color: #151f24;
+  background: linear-gradient(-45deg, #0b0c0c, #1B262C, #1B262C, #0b0c0c);
+  padding: 50px;
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+  background-color: #141c21;
+  background: linear-gradient(22.5deg, #0b0c0c, #1B262C, #1B262C, #0b0c0c);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer p {
+  margin-bottom: 20px;
+}
+
+.contact-nav-container a {
+  margin: 0 10px;
+}
+
+.h2 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid #29a19d;
+  margin-bottom: 30px;
+  transition: 0.4s;
+}
+
+.h2:hover {
+  color: #A3F7BF;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  transition: 0.4s;
 }
