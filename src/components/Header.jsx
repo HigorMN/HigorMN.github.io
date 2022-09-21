@@ -9,7 +9,6 @@ class Header extends React.Component {
           <Link to="/">INÍCIO</Link>
           <Link to="/">SOBRE</Link>
           <Link to="/">PROJETOS</Link>
-          <Link to="/">HABILIDADES</Link>
           <Link to="/">CONTATO</Link>
         </nav>
       </header>
