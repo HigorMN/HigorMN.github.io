@@ -5,23 +5,23 @@
   font-size: 18px;
 }
 
-.navLinks {
+.header-nav-link {
   display: flex;
   list-style-type: none;
   margin: auto;
   padding-left: 0;
 }
 
-.navLinks li a {
+.header-nav-link a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.772);
-  padding-bottom: 3px;
+  color: #ffffffc5;
   border-bottom: 2px solid #29A19C;
   margin: 15px;
   transition: 0.4s;
+  padding-bottom: 1px;
 }
 
-.navLinks li a:hover {
+.header-nav-link a:hover {
   color: #A3F7BF;
   border-bottom: 2px solid rgba(255, 255, 255, 0.696);
   transition: 0.4s;
