@@ -21,23 +21,63 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
+  background-color: #29a19d81;
   border: 3px solid #29a19d81;
   border-radius: 20px;
 }
 
+img, h1, h2, h3, a, p {
+  animation: go-back 2s;
+}
+
 .border-btt {
  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+ animation: go-back 0.5s;
 }
 
 .home {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  line-height: 350%;
+}
+
+.home-first-container {
   font-size: 24px;
-  background: linear-gradient(90deg, #0b0c0c 0%, #1b262c 50%, #0b0c0c 100%);
-  padding: 50px;
+  line-height: 350%;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.home-about-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.home-about-container-article {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-text-about {
+  width: 50%;
+}
+
+.home-img-container{
+  text-align: center;
+  width: 50%;
+}
+
+.home-img {
+  height: 65%;
+  width: 65%;
+  max-width: 315px;
+  max-height: 315px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 90px 5px rgba(41, 161, 157, 0.3);
 }
 
 .footer {
@@ -63,6 +103,7 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 2px solid #29a19d;
   margin-bottom: 30px;
   transition: 0.4s;
+  font-size: larger;
 }
 
 .h2:hover {
@@ -70,3 +111,12 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 2px solid rgba(255, 255, 255, 0.7);
   transition: 0.4s;
 }
+
+@keyframes go-back {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(-100px)
+  }
+} 
