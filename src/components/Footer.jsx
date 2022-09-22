@@ -6,7 +6,7 @@ import github from '../images/github.png';
 export default class Footer extends Component {
   render() {
     return (
-      <footer className="footer">
+      <footer className="footer" id="footer">
         <h2 className="h2">Contato</h2>
         <p>Estamos a um click de distância!!</p>
         <nav className="contact-nav-container">

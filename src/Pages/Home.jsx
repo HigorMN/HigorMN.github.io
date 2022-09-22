@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
 import github from '../images/github.png';
+import Arrow from '../components/Arrow';
 
 export default class Home extends Component {
   render() {
     return (
       <main className="home border-btt">
-        <div className="home-first-container border-btt">
+        <div className="home-first-container">
           <h3>Olá, eu sou</h3>
           <h1>Higor Maranhão</h1>
           <h3>Fullstack Develover</h3>
@@ -31,9 +32,12 @@ export default class Home extends Component {
             </a>
           </nav>
         </div>
-        <div className="home-about-container">
+        <Arrow to="#about" />
+        <div className="center mt" id="about">
           <h2 className="h2">Sobre</h2>
-          <div className="home-about-container-article">
+        </div>
+        <div className="home-about-container center">
+          <div className="home-about-container-article center">
             <article className="home-text-about">
               <p>
                 Meu nome é Higor Maranhão, nasci em Guarabira/PB e sou Desenvolvedor
@@ -55,7 +59,9 @@ export default class Home extends Component {
               <h1>Higor Maranhão</h1>
             </div>
           </div>
+          <div className="mt" />
         </div>
+        <Arrow to="#footer" />
       </main>
     );
   }
