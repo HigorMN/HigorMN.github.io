@@ -6,6 +6,7 @@ import './css/Main.css'
 import './css/Header.css'
 import Footer from './components/Footer';
 import About from './Pages/About';
+import Projects from './Pages/ Projects';
 
 
 export default class App extends Component {
@@ -19,6 +20,9 @@ export default class App extends Component {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
           </Route>
         </Switch>
         <Footer />

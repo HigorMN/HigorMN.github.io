@@ -8,7 +8,7 @@ class Header extends React.Component {
         <nav className="header-nav-link">
           <Link to="/">INÍCIO</Link>
           <Link to="/about">SOBRE</Link>
-          <Link to="/">PROJETOS</Link>
+          <Link to="/projects">PROJETOS</Link>
           <Link to="/">CONTATO</Link>
         </nav>
       </header>
