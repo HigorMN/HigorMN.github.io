@@ -35,9 +35,14 @@ img, h1, h2, h3, a, p {
 }
 
 .border-btt {
- border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+ border-bottom: 1px solid rgba(255, 255, 255, 0.1);
  animation: go-back 0.5s;
 }
+
+.border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  animation: go-back 0.5s;
+ }
 
 .center {
   align-items: center;
