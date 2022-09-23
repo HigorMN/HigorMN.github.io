@@ -136,6 +136,6 @@ img, h1, h2, h3, a, p {
     transform: scale(0)
   }
   to {
-    transform: scale(-100px)
+    transform: scale(-10px)
   }
 } 
