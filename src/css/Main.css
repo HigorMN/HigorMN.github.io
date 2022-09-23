@@ -138,9 +138,6 @@ img, h1, h2, h3, a, p {
 
 #projects-container {
   height: 70vh;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 @keyframes go-back {
