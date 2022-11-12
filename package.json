@@ -1,5 +1,5 @@
 {
-  "name": "higor",
+  "name": "2217",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://higormn.github.io/",
@@ -41,5 +41,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HigorMN/HigorMN.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HigorMN/HigorMN.github.io/issues"
   }
 }
