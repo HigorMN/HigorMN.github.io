@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Arrow from '../components/Arrow';
-import ContactLinks from '../components/ ContactLinks';
+import ContactLinks from '../components/ContactLinks';
 import About from './About';
 
 export default class Home extends Component {

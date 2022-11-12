@@ -6,7 +6,7 @@ import './css/Main.css'
 import './css/Header.css'
 import Footer from './components/Footer';
 import About from './Pages/About';
-import Projects from './Pages/ Projects';
+import Projects from './Pages/Projects';
 
 
 export default class App extends Component {

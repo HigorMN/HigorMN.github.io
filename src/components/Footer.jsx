@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ContactLinks from './ ContactLinks';
+import ContactLinks from './ContactLinks';
 
 export default class Footer extends Component {
   render() {
