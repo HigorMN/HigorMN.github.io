@@ -8,17 +8,17 @@ export default class ContactLinks extends Component {
     return (
       <nav className="contact-nav-container">
         <a href="https://github.com/HigorMN" target="_blank" rel="noopener noreferrer">
-          <img src={gitHubLogoPNG} alt="Imagem GitHub" />
+          <img src={ gitHubLogoPNG } alt="Imagem GitHub" />
         </a>
         <a href="mailto:higor.maranhao2000@gmail.com">
-          <img src={gmailLogoPNG} alt="Imagem Email" />
+          <img src={ gmailLogoPNG } alt="Imagem Email" />
         </a>
         <a
           href="https://www.linkedin.com/in/higor-maranhao/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linkedinLogoPNG} alt="Imagem Linkedin" />
+          <img src={ linkedinLogoPNG } alt="Imagem Linkedin" />
         </a>
       </nav>
     );
