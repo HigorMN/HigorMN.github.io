@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ProjectsCard from '../components/ProjectsCard';
 
-export default class Projects extends Component {
-  render() {
-    return (
-      <div id="projects-container" className="center">
-        <h1>Pagina de projetos em manutenção.</h1>
+export default function Projects() {
+  return (
+    <div id="projects-container" className="center">
+      <div>
+        <h1>PROJETOS DE FUNDAMENTO</h1>
+        <ProjectsCard module="fundamentos" />
       </div>
-    );
-  }
+    </div>
+  );
 }
