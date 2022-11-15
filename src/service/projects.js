@@ -8,7 +8,7 @@ import misteryLetter from './images/mistery-letter.gif';
 
 const HTML = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg';
 const CSS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg';
-const JS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg';
+const JS = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg';
 
 const trybeFundamentos = 'trybe - fundamentos';
 
