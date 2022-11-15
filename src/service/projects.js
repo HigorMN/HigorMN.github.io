@@ -17,8 +17,8 @@ const data = [{
   module: 'trybe - fundamentos',
   topics: [JS],
   image: PlaygroundFunctions,
-  linkWeb: 'https://higormn.github.io/lessons-learned/',
-  linkRepository: 'https://github.com/HigorMN/lessons-learned',
+  linkWeb: '',
+  linkRepository: 'https://github.com/HigorMN/playground-functions',
 }];
 
 export default data;
