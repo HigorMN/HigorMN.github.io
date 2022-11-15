@@ -3,9 +3,9 @@ import ProjectsCard from '../components/ProjectsCard';
 
 export default function Projects() {
   return (
-    <div id="projects-container" className="center">
+    <div>
       <div>
-        <h1>PROJETOS DE FUNDAMENTO</h1>
+        <h2>PROJETOS DE FUNDAMENTO</h2>
         <ProjectsCard module="fundamentos" />
       </div>
     </div>
