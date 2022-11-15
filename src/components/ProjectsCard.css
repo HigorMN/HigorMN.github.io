@@ -4,6 +4,11 @@
  justify-content: center;
  flex-direction: column;
  margin-top: 35px;
+ margin-bottom: 20px;
+}
+
+.Projects h2 {
+  margin-bottom: 25px;
 }
 
 .Cards {
