@@ -1,25 +1,40 @@
+.Projects {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: 35px;
+}
+
+.Cards {
+  width: 90%;
+}
+
 .Card__Project__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
   text-align: center;
 }
 
 .Card__Project__container p {
-  margin-top: 2px;
+  margin-top: 10px;
 }
 
 .Card__IMG__Project {
-  width: 100%;
+  width: 256px;
+  height: 144px;
   background: #080713;
-  border: 1px solid #301860;
-  box-shadow: 5px 0 20px 5px #301860;
-  background-blend-mode: multiply;
+  border: 1px solid #29A19D;
+  border-radius: 5px;
+  box-shadow: 5px 0 30px #29A19D;
+  object-fit: cover;
 }
 
 .Card__topics__container {
   display: flex;
-  margin-top: -35px;
-  margin-left: 5px;
+  margin-top: -37px;
+  margin-left: 35px;
 }
 
 .Card__topics__container img {

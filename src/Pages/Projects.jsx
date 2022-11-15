@@ -3,11 +3,13 @@ import ProjectsCard from '../components/ProjectsCard';
 
 export default function Projects() {
   return (
-    <div>
-      <div>
+    <main>
+      <div className="Projects">
         <h2>PROJETOS DE FUNDAMENTO</h2>
-        <ProjectsCard module="fundamentos" />
+        <div className="Cards">
+          <ProjectsCard module="fundamentos" />
+        </div>
       </div>
-    </div>
+    </main>
   );
 }

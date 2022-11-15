@@ -17,9 +17,9 @@ export default function ProjectsCard(props) {
   }, [module]);
 
   return (
-    <>
+    <div className="Card__Project__container">
       {dataAPI.map((e, index) => (
-        <div key={ index } className="Card__Project__container">
+        <div key={ index }>
           <div>
             <img src={ e.image } alt={ e.name } className="Card__IMG__Project" />
             <div className="Card__topics__container">
@@ -31,7 +31,7 @@ export default function ProjectsCard(props) {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 
