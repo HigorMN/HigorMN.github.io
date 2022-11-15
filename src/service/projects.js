@@ -17,7 +17,7 @@ const data = [{
   module: 'trybe - fundamentos',
   topics: [JS],
   image: PlaygroundFunctions,
-  linkWeb: '',
+  linkWeb: 'https://',
   linkRepository: 'https://github.com/HigorMN/playground-functions',
 }];
 

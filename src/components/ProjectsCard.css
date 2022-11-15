@@ -40,3 +40,12 @@
 .Card__topics__container img {
   width: 30px;
 }
+
+.Card__links__container {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
