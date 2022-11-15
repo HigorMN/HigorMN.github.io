@@ -23,7 +23,9 @@ export default function ProjectsCard(props) {
     <div className="Card__Project__container">
       {dataAPI.map((e, index) => (
         <div key={ index }>
-          <img src={ e.image } alt={ e.name } className="Card__IMG__Project" />
+          <a href={ e.linkWeb } target="_blank" rel="noreferrer">
+            <img src={ e.image } alt={ e.name } className="Card__IMG__Project" />
+          </a>
           <div className="Card__topics__container">
             {e.topics.map((img, indexImg) => (
               <img key={ indexImg } src={ img } alt={ indexImg } />

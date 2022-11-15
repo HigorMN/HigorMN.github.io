@@ -34,6 +34,13 @@
   border-radius: 5px;
   box-shadow: 5px 0 30px #29A19D;
   object-fit: cover;
+  transition: 0.5s;
+}
+
+.Card__IMG__Project:hover {
+  cursor: pointer;
+  width: 95%;
+  transition: 0.5s;
 }
 
 .Card__topics__container {
