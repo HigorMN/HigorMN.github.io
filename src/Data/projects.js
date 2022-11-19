@@ -10,6 +10,7 @@ const JS = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaS
 const JEST = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg';
 
 const trybeFundamentos = 'trybe - fundamentos';
+const trybeFront = 'trybe - front-end';
 
 const data = [{
   name: 'Lessons Learned',
@@ -81,6 +82,13 @@ const data = [{
   image: 'https://raw.githubusercontent.com/HigorMN/zoo-functions/main/zoo-functions.png',
   linkWeb: 'https://',
   linkRepository: 'https://github.com/HigorMN/zoo-functions',
+}, {
+  name: 'Carrinho de Compras',
+  module: trybeFront,
+  topics: [HTML, CSS, JEST, JS],
+  image: 'https://raw.githubusercontent.com/HigorMN/shopping-cart/main/prototipo.gif',
+  linkWeb: 'https://higormn.github.io/shopping-cart/',
+  linkRepository: 'https://github.com/HigorMN/shopping-cart',
 }];
 
 export default data;
