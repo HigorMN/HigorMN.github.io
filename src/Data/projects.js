@@ -1,6 +1,3 @@
-import lessonsLearned from './images/lessons-learned.png';
-import PlaygroundFunctions from './images/Playground-Functions.png';
-import pixelArt from './images/pixel-art.png';
 import memeGenerator from './images/meme-generator.gif';
 import todoList from './images/todo-list.gif';
 import guessTheColor from './images/guess-the-color.gif';
@@ -18,21 +15,21 @@ const data = [{
   name: 'Lessons Learned',
   module: trybeFundamentos,
   topics: [HTML, CSS],
-  image: lessonsLearned,
+  image: 'https://raw.githubusercontent.com/HigorMN/lessons-learned/main/exemplo.png',
   linkWeb: 'https://higormn.github.io/lessons-learned/',
   linkRepository: 'https://github.com/HigorMN/lessons-learned',
 }, {
   name: 'Playground Functions',
   module: trybeFundamentos,
   topics: [JS],
-  image: PlaygroundFunctions,
+  image: 'https://raw.githubusercontent.com/HigorMN/playground-functions/main/playground-functions.png',
   linkWeb: 'https://',
   linkRepository: 'https://github.com/HigorMN/playground-functions',
 }, {
   name: 'Arte com Pixels',
   module: trybeFundamentos,
   topics: [HTML, CSS, JS],
-  image: pixelArt,
+  image: 'https://raw.githubusercontent.com/HigorMN/pixels-art/main/art-with-pixels.gif',
   linkWeb: 'https://higormn.github.io/pixels-art/',
   linkRepository: 'https://github.com/HigorMN/pixels-art',
 }, {
