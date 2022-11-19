@@ -5,6 +5,7 @@ import memeGenerator from './images/meme-generator.gif';
 import todoList from './images/todo-list.gif';
 import guessTheColor from './images/guess-the-color.gif';
 import misteryLetter from './images/mistery-letter.gif';
+import trybewarts from './images/trybewarts.gif';
 
 const HTML = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg';
 const CSS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg';
@@ -61,6 +62,13 @@ const data = [{
   image: misteryLetter,
   linkWeb: 'https://github.com/HigorMN/carta-misteriosa',
   linkRepository: 'https://higormn.github.io/carta-misteriosa/',
+}, {
+  name: 'Trybewarts',
+  module: trybeFundamentos,
+  topics: [HTML, CSS, JS],
+  image: trybewarts,
+  linkWeb: 'https://higormn.github.io/trybewarts/',
+  linkRepository: 'https://github.com/HigorMN/trybewarts',
 }];
 
 export default data;
