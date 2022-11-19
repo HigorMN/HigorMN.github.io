@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
-import data from '../service/projects';
+import data from '../Data/projects';
 import './ProjectsCard.css';
 
 import github from '../images/github.png';
