@@ -5,10 +5,8 @@ export default function Projects() {
   return (
     <main>
       <div className="Projects">
-        <h2>PROJETOS DE FUNDAMENTO</h2>
-        <div className="Cards">
-          <ProjectsCard module="fundamentos" />
-        </div>
+        <h1>PROJETOS DE FUNDAMENTO</h1>
+        <ProjectsCard module="fundamentos" />
       </div>
     </main>
   );
