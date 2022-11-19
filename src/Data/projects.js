@@ -8,6 +8,7 @@ const HTML = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/ht
 const CSS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg';
 const JS = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg';
 const JEST = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg';
+const REACT = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg';
 
 const trybeFundamentos = 'trybe - fundamentos';
 const trybeFront = 'trybe - front-end';
@@ -89,6 +90,13 @@ const data = [{
   image: 'https://raw.githubusercontent.com/HigorMN/shopping-cart/main/prototipo.gif',
   linkWeb: 'https://higormn.github.io/shopping-cart/',
   linkRepository: 'https://github.com/HigorMN/shopping-cart',
+}, {
+  name: 'Sistema Solar',
+  module: trybeFront,
+  topics: [HTML, CSS, JEST, JS, REACT],
+  image: 'https://raw.githubusercontent.com/HigorMN/solar-system/main/solar-system.png',
+  linkWeb: 'https://higormn.github.io/solar-system/',
+  linkRepository: 'https://github.com/HigorMN/solar-system',
 }];
 
 export default data;
