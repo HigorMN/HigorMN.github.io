@@ -10,6 +10,7 @@ import trybewarts from './images/trybewarts.gif';
 const HTML = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg';
 const CSS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg';
 const JS = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg';
+const JEST = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg';
 
 const trybeFundamentos = 'trybe - fundamentos';
 
@@ -69,6 +70,20 @@ const data = [{
   image: trybewarts,
   linkWeb: 'https://higormn.github.io/trybewarts/',
   linkRepository: 'https://github.com/HigorMN/trybewarts',
+}, {
+  name: 'Teste Unitários',
+  module: trybeFundamentos,
+  topics: [JEST, JS],
+  image: 'https://raw.githubusercontent.com/HigorMN/js-unit-tests/main/js-unit-test.png',
+  linkWeb: 'https://',
+  linkRepository: 'https://github.com/HigorMN/js-unit-tests',
+}, {
+  name: 'Zoo Functions',
+  module: trybeFundamentos,
+  topics: [JEST, JS],
+  image: 'https://raw.githubusercontent.com/HigorMN/zoo-functions/main/zoo-functions.png',
+  linkWeb: 'https://',
+  linkRepository: 'https://github.com/HigorMN/zoo-functions',
 }];
 
 export default data;
