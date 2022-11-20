@@ -12,6 +12,7 @@ const REACT = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/r
 
 const trybeFundamentos = 'trybe - fundamentos';
 const trybeFront = 'trybe - front-end';
+const trybeFrontFav = 'trybe - front-end - favoritos';
 
 const data = [{
   name: 'Lessons Learned',
@@ -104,6 +105,13 @@ const data = [{
   image: 'https://github.com/HigorMN/tryunfo/raw/main/tryunfo.png',
   linkWeb: 'https://higormn.github.io/tryunfo/',
   linkRepository: 'https://github.com/HigorMN/tryunfo',
+}, {
+  name: 'Front-End Online Store',
+  module: trybeFrontFav,
+  topics: [HTML, CSS, JEST, JS, REACT],
+  image: 'https://github.com/HigorMN/frontend-online-store/raw/main/front-end-online-store.png',
+  linkWeb: 'https://higormn.github.io/frontend-online-store/',
+  linkRepository: 'https://github.com/HigorMN/frontend-online-store',
 }];
 
 export default data;
