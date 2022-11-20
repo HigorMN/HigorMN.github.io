@@ -97,6 +97,13 @@ const data = [{
   image: 'https://raw.githubusercontent.com/HigorMN/solar-system/main/solar-system.png',
   linkWeb: 'https://higormn.github.io/solar-system/',
   linkRepository: 'https://github.com/HigorMN/solar-system',
+}, {
+  name: 'Tryunfo',
+  module: trybeFront,
+  topics: [HTML, CSS, JEST, JS, REACT],
+  image: 'https://github.com/HigorMN/tryunfo/raw/main/tryunfo.png',
+  linkWeb: 'https://higormn.github.io/tryunfo/',
+  linkRepository: 'https://github.com/HigorMN/tryunfo',
 }];
 
 export default data;
