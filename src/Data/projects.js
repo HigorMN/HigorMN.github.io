@@ -9,6 +9,7 @@ const CSS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css
 const JS = 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg';
 const JEST = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg';
 const REACT = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg';
+const REDUX = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg';
 
 const trybeFundamentos = 'trybe - fundamentos';
 const trybeFront = 'trybe - front-end';
@@ -112,6 +113,13 @@ const data = [{
   image: 'https://github.com/HigorMN/frontend-online-store/raw/main/front-end-online-store.png',
   linkWeb: 'https://higormn.github.io/frontend-online-store/',
   linkRepository: 'https://github.com/HigorMN/frontend-online-store',
+}, {
+  name: 'Trybewallet',
+  module: trybeFront,
+  topics: [HTML, CSS, JEST, JS, REACT, REDUX],
+  image: 'https://github.com/HigorMN/trybewallet/raw/main/Trybewallet.png',
+  linkWeb: 'https://higormn.github.io/trybewallet/',
+  linkRepository: 'https://github.com/HigorMN/trybewallet',
 }];
 
 export default data;
