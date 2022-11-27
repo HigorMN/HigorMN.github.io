@@ -120,6 +120,13 @@ const data = [{
   image: 'https://github.com/HigorMN/trybewallet/raw/main/Trybewallet.png',
   linkWeb: 'https://higormn.github.io/trybewallet/',
   linkRepository: 'https://github.com/HigorMN/trybewallet',
+}, {
+  name: 'Trivia',
+  module: trybeFrontFav,
+  topics: [HTML, CSS, JEST, JS, REACT, REDUX],
+  image: 'https://github.com/HigorMN/trivia/raw/main/trivia.png',
+  linkWeb: 'https://higormn.github.io/trivia/',
+  linkRepository: 'https://github.com/HigorMN/trivia',
 }];
 
 export default data;
