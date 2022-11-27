@@ -88,6 +88,7 @@
 
 .rec.rec-dot {
   background: #29a19d0d;
+  box-shadow: 0 0 1px 3px #29a19d33;
 }
 
 .rec.rec-dot:hover:enabled {
