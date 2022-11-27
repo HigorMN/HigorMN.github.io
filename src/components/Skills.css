@@ -4,6 +4,7 @@
   width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
+  width: 100%;
 }
 
 .Hab__Container__List p {
@@ -14,4 +15,22 @@
 
 .Hab__Container__List ul {
   list-style: circle;
+}
+
+@media screen and (max-width: 375px) {
+  .Hab__Container__List {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .Hab__Container__List ul {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .Hab__Container__List p {
+    text-align: center;
+    margin-left: 0;
+  }
 }
