@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './About.css';
+
 export default class About extends Component {
   render() {
     return (
@@ -7,9 +9,9 @@ export default class About extends Component {
         <div className="center mt" id="about">
           <h2 className="h2">Sobre</h2>
         </div>
-        <div className="home-about-container center">
-          <div className="home-about-container-article center">
-            <article className="home-text-about">
+        <div className="About__container center">
+          <div className="About__container__article">
+            <article className="About__article">
               <p>
                 Meu nome é Higor Maranhão, nasci em Guarabira/PB e sou Desenvolvedor
                 Full-Stack, Front-end e Back-end.
