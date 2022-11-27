@@ -127,6 +127,20 @@ const data = [{
   image: 'https://github.com/HigorMN/trivia/raw/main/trivia.png',
   linkWeb: 'https://higormn.github.io/trivia/',
   linkRepository: 'https://github.com/HigorMN/trivia',
+}, {
+  name: 'StarWars Planets Search',
+  module: trybeFront,
+  topics: [HTML, CSS, JEST, JS, REACT],
+  image: 'https://github.com/HigorMN/starwars-planets-search/raw/main/projectIntro.gif',
+  linkWeb: 'https://higormn.github.io/starwars-planets-search/',
+  linkRepository: 'https://github.com/HigorMN/starwars-planets-search',
+}, {
+  name: 'App de receitas',
+  module: trybeFrontFav,
+  topics: [HTML, CSS, JEST, JS, REACT],
+  image: 'https://github.com/HigorMN/starwars-planets-search/raw/main/projectIntro.gif',
+  linkWeb: 'https://higormn.github.io/app-recipes/',
+  linkRepository: 'https://github.com/HigorMN/app-recipes',
 }];
 
 export default data;
