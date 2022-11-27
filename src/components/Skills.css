@@ -17,7 +17,7 @@
   list-style: circle;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 640px) {
   .Hab__Container__List {
     flex-direction: column;
     margin: auto;
