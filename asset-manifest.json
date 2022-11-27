@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.be053117.css",
+    "main.css": "/static/css/main.9b067dac.css",
     "main.js": "/static/js/main.1aafede1.js",
     "static/media/meme-generator.gif": "/static/media/meme-generator.32dbd3fa1d0d3ba87846.gif",
     "static/media/todo-list.gif": "/static/media/todo-list.920ebae10c060f3acc31.gif",
@@ -9,11 +9,11 @@
     "static/media/guess-the-color.gif": "/static/media/guess-the-color.dabf9c0a4769dea636fa.gif",
     "static/media/browserIcon.svg": "/static/media/browserIcon.0dac0aef2efd35333c211b625b154f0c.svg",
     "index.html": "/index.html",
-    "main.be053117.css.map": "/static/css/main.be053117.css.map",
+    "main.9b067dac.css.map": "/static/css/main.9b067dac.css.map",
     "main.1aafede1.js.map": "/static/js/main.1aafede1.js.map"
   },
   "entrypoints": [
-    "static/css/main.be053117.css",
+    "static/css/main.9b067dac.css",
     "static/js/main.1aafede1.js"
   ]
 }
