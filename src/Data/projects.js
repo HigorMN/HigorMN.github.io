@@ -138,7 +138,7 @@ const data = [{
   name: 'App de receitas',
   module: trybeFrontFav,
   topics: [HTML, CSS, JEST, JS, REACT],
-  image: 'https://github.com/HigorMN/starwars-planets-search/raw/main/projectIntro.gif',
+  image: 'https://github.com/HigorMN/app-recipes/raw/main/fullapp.png',
   linkWeb: 'https://higormn.github.io/app-recipes/',
   linkRepository: 'https://github.com/HigorMN/app-recipes',
 }];
