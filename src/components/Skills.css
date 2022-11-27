@@ -1,0 +1,17 @@
+.Hab__Container__List {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Hab__Container__List p {
+  margin-bottom: 10px;
+  margin-left: -18px;
+  font-size: 18px;
+}
+
+.Hab__Container__List ul {
+  list-style: circle;
+}
