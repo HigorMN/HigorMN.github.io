@@ -43,9 +43,11 @@ export default function ProjectsCard(props) {
               <img src={ e.image } alt={ e.name } className="Card__IMG__Project" />
             </a>
             <div className="Card__topics__container">
-              {e.topics.map((img, indexImg) => (
-                <img key={ indexImg } src={ img } alt={ indexImg } />
-              ))}
+              <div className="center">
+                {e.topics.map((img, indexImg) => (
+                  <img key={ indexImg } src={ img } alt={ indexImg } />
+                ))}
+              </div>
             </div>
             <div className="Card__links__container">
               <a href={ e.linkRepository } target="_blank" rel="noopener noreferrer">
