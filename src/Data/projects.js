@@ -1,8 +1,8 @@
 import memeGenerator from './images/meme-generator.gif';
 import todoList from './images/todo-list.gif';
 import guessTheColor from './images/guess-the-color.gif';
-import misteryLetter from './images/mistery-letter.gif';
-import trybewarts from './images/trybewarts.gif';
+import mysteryLetter from './images/mystery-letter.gif';
+import trybeWarts from './images/trybe-wart.gif';
 
 const HTML = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg';
 const CSS = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg';
@@ -11,76 +11,76 @@ const JEST = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain
 const REACT = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg';
 const REDUX = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg';
 
-const trybeFundamentos = 'trybe - fundamentos';
+const trybeFundaments = 'trybe - fundamentos';
 const trybeFront = 'trybe - front-end';
 const trybeFrontFav = 'trybe - front-end - favoritos';
 
 const data = [{
   name: 'Lessons Learned',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS],
   image: 'https://raw.githubusercontent.com/HigorMN/lessons-learned/main/exemplo.png',
   linkWeb: 'https://higormn.github.io/lessons-learned/',
   linkRepository: 'https://github.com/HigorMN/lessons-learned',
 }, {
   name: 'Playground Functions',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [JS],
-  image: 'https://raw.githubusercontent.com/HigorMN/playground-functions/main/playground-functions.png',
+  image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--C3c-Mxu7--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uf3ng03oniizb4tehot2.jpg',
   linkWeb: 'https://',
   linkRepository: 'https://github.com/HigorMN/playground-functions',
 }, {
   name: 'Arte com Pixels',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS, JS],
   image: 'https://raw.githubusercontent.com/HigorMN/pixels-art/main/art-with-pixels.gif',
   linkWeb: 'https://higormn.github.io/pixels-art/',
   linkRepository: 'https://github.com/HigorMN/pixels-art',
 }, {
   name: 'Meme Generator',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS, JS],
   image: memeGenerator,
   linkWeb: 'https://higormn.github.io/meme-generator/',
   linkRepository: 'https://github.com/HigorMN/meme-generator',
 }, {
   name: 'Lista de Tarefas',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS, JS],
   image: todoList,
   linkWeb: 'https://higormn.github.io/todo-list/',
   linkRepository: 'https://github.com/HigorMN/todo-list',
 }, {
   name: 'Adivinhe a cor',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS, JS],
   image: guessTheColor,
   linkWeb: 'https://higormn.github.io/color-guess/',
   linkRepository: 'https://github.com/HigorMN/color-guess',
 }, {
   name: 'Carta Misteriosa',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS, JS],
-  image: misteryLetter,
+  image: mysteryLetter,
   linkWeb: 'https://github.com/HigorMN/carta-misteriosa',
   linkRepository: 'https://higormn.github.io/carta-misteriosa/',
 }, {
   name: 'Trybewarts',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [HTML, CSS, JS],
-  image: trybewarts,
+  image: trybeWarts,
   linkWeb: 'https://higormn.github.io/trybewarts/',
   linkRepository: 'https://github.com/HigorMN/trybewarts',
 }, {
   name: 'Teste Unitários',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [JEST, JS],
   image: 'https://raw.githubusercontent.com/HigorMN/js-unit-tests/main/js-unit-test.png',
   linkWeb: 'https://',
   linkRepository: 'https://github.com/HigorMN/js-unit-tests',
 }, {
   name: 'Zoo Functions',
-  module: trybeFundamentos,
+  module: trybeFundaments,
   topics: [JEST, JS],
   image: 'https://raw.githubusercontent.com/HigorMN/zoo-functions/main/zoo-functions.png',
   linkWeb: 'https://',
@@ -89,42 +89,42 @@ const data = [{
   name: 'Carrinho de Compras',
   module: trybeFront,
   topics: [HTML, CSS, JEST, JS],
-  image: 'https://raw.githubusercontent.com/HigorMN/shopping-cart/main/prototipo.gif',
+  image: 'https://img.freepik.com/fotos-premium/carrinho-de-compras-desfocado-no-fundo-do-supermercado_36078-696.jpg',
   linkWeb: 'https://higormn.github.io/shopping-cart/',
   linkRepository: 'https://github.com/HigorMN/shopping-cart',
 }, {
   name: 'Sistema Solar',
   module: trybeFront,
   topics: [HTML, CSS, JEST, JS, REACT],
-  image: 'https://raw.githubusercontent.com/HigorMN/solar-system/main/solar-system.png',
+  image: 'https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/03/planeta-sistema-solar.jpg',
   linkWeb: 'https://higormn.github.io/solar-system/',
   linkRepository: 'https://github.com/HigorMN/solar-system',
 }, {
   name: 'Tryunfo',
   module: trybeFront,
   topics: [HTML, CSS, JEST, JS, REACT],
-  image: 'https://github.com/HigorMN/tryunfo/raw/main/tryunfo.png',
+  image: 'https://t2.tudocdn.net/560502?w=1920',
   linkWeb: 'https://higormn.github.io/tryunfo/',
   linkRepository: 'https://github.com/HigorMN/tryunfo',
 }, {
   name: 'Front-End Online Store',
   module: trybeFrontFav,
   topics: [HTML, CSS, JEST, JS, REACT],
-  image: 'https://github.com/HigorMN/frontend-online-store/raw/main/front-end-online-store.png',
+  image: 'https://images.yourstory.com/cs/2/f02aced0d86311e98e0865c1f0fe59a2/online-buying-1625209658854.png',
   linkWeb: 'https://higormn.github.io/frontend-online-store/',
   linkRepository: 'https://github.com/HigorMN/frontend-online-store',
 }, {
   name: 'Trybewallet',
   module: trybeFront,
   topics: [HTML, CSS, JEST, JS, REACT, REDUX],
-  image: 'https://github.com/HigorMN/trybewallet/raw/main/Trybewallet.png',
+  image: 'https://www.mobills.com.br/blog/wp-content/uploads/2022/01/planilha-de-controle-financeiro.jpg',
   linkWeb: 'https://higormn.github.io/trybewallet/',
   linkRepository: 'https://github.com/HigorMN/trybewallet',
 }, {
   name: 'Trivia',
   module: trybeFrontFav,
   topics: [HTML, CSS, JEST, JS, REACT, REDUX],
-  image: 'https://github.com/HigorMN/trivia/raw/main/trivia.png',
+  image: 'https://wallpapercave.com/wp/wp9677222.jpg',
   linkWeb: 'https://higormn.github.io/trivia/',
   linkRepository: 'https://github.com/HigorMN/trivia',
 }, {
@@ -138,7 +138,7 @@ const data = [{
   name: 'App de receitas',
   module: trybeFrontFav,
   topics: [HTML, CSS, JEST, JS, REACT],
-  image: 'https://github.com/HigorMN/app-recipes/raw/main/fullapp.png',
+  image: 'http://s2.glbimg.com/pkOw6LCsnK72qwmKmozdovs72JM=/620x455/e.glbimg.com/og/ed/f/original/2017/01/11/livro_de_receita.jpg',
   linkWeb: 'https://higormn.github.io/app-recipes/',
   linkRepository: 'https://github.com/HigorMN/app-recipes',
 }];
