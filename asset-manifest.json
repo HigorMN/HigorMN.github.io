@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4c5c716.css",
-    "main.js": "/static/js/main.edf365a3.js",
+    "main.css": "/static/css/main.4ec6ec15.css",
+    "main.js": "/static/js/main.19da4f3d.js",
     "static/media/meme-generator.gif": "/static/media/meme-generator.32dbd3fa1d0d3ba87846.gif",
     "static/media/todo-list.gif": "/static/media/todo-list.920ebae10c060f3acc31.gif",
-    "static/media/mistery-letter.gif": "/static/media/mistery-letter.d75d6457a002608fa8dd.gif",
-    "static/media/trybewarts.gif": "/static/media/trybewarts.dc205e53ff17f36a59eb.gif",
+    "static/media/mystery-letter.gif": "/static/media/mystery-letter.d75d6457a002608fa8dd.gif",
+    "static/media/trybe-wart.gif": "/static/media/trybe-wart.dc205e53ff17f36a59eb.gif",
     "static/media/guess-the-color.gif": "/static/media/guess-the-color.dabf9c0a4769dea636fa.gif",
     "static/media/browserIcon.svg": "/static/media/browserIcon.0dac0aef2efd35333c211b625b154f0c.svg",
     "index.html": "/index.html",
-    "main.b4c5c716.css.map": "/static/css/main.b4c5c716.css.map",
-    "main.edf365a3.js.map": "/static/js/main.edf365a3.js.map"
+    "main.4ec6ec15.css.map": "/static/css/main.4ec6ec15.css.map",
+    "main.19da4f3d.js.map": "/static/js/main.19da4f3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c5c716.css",
-    "static/js/main.edf365a3.js"
+    "static/css/main.4ec6ec15.css",
+    "static/js/main.19da4f3d.js"
   ]
 }
