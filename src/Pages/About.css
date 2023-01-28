@@ -31,6 +31,13 @@
 }
 
 @media screen and (max-width: 640px) {
+  .About__container {
+    flex-direction: column;
+    padding-top: 20px;
+    margin: auto;
+    height: 155vh;
+  }
+
   .About__container__article {
     flex-direction: column-reverse;
   }
