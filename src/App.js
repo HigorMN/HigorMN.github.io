@@ -1,31 +1,11 @@
-import React, { Component } from 'react';
-import { Route, Switch, HashRouter } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './Pages/Home';
-import './css/Header.css';
-import './css/Main.css';
-import Footer from './components/Footer';
-import About from './Pages/About';
-import Projects from './Pages/Projects';
+import './App.css';
 
-export default class App extends Component {
-  render() {
-    return (
-      <HashRouter>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-        </Switch>
-        <Footer />
-      </HashRouter>
-    );
-  }
+function App() {
+  return (
+    <div>
+      start
+    </div>
+  );
 }
+
+export default App;
