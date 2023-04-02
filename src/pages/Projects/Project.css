@@ -1,0 +1,110 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.project .project-box {
+  display: flex;
+  width: 59%;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.project .project-box .project-card {
+  max-width: 12rem;
+  min-width: 12rem;
+  transition: 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  min-width: 10rem;
+  min-height: 12rem;
+  margin: 0.5rem 0.25rem;
+}
+.project .project-box .project-card button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.project .project-box .project-card h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+.project .project-box .project-card p {
+  pointer-events: none;
+  font-size: 13px;
+  color: #949494;
+  max-height: 4.1rem;
+  overflow: hidden;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  pointer-events: none;
+  margin: 0.5rem 0;
+}
+.project .project-box .project-card .image-box {
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 0.5rem 0;
+  max-height: 4rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project .project-box .project-card .image-box img {
+  pointer-events: none;
+  max-width: 120%;
+  min-width: 120%;
+}
+.project .project-box .project-card .source-buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin: -0.5rem auto;
+  transform: translateY(1rem);
+  justify-content: space-evenly;
+  padding: 0.25rem;
+  border-radius: 1rem;
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 99;
+  visibility: hidden;
+  transition: 0.8s;
+  opacity: 0;
+}
+.project .project-box .project-card .source-buttons i {
+  transition: 0s;
+}
+.project .project-box .project-card:hover {
+  transform: translateY(-0.2rem);
+}
+.project .project-box .project-card:hover .source-buttons {
+  opacity: 1;
+  visibility: visible;
+}
+.project .project-box .project-card .stacks {
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  display: flex;
+  max-height: 1rem;
+  min-height: 1rem;
+  gap: 0.5rem;
+}
+.project .project-box .project-card .stacks i {
+  border-radius: 50%;
+  width: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.3rem;
+}
+
+@media screen and (max-width: 640px) {
+  .project .project-box {
+    justify-content: center;
+  }
+}

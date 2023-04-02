@@ -1,0 +1,21 @@
+.socials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  height: 2rem;
+}
+
+.socials i {
+  color: var(--secondary);
+  display: flex;
+  padding: 1rem 0.2rem;
+}
+
+.socials i:hover {
+  color: var(--white);
+}

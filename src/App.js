@@ -1,31 +1,30 @@
-import React, { Component } from 'react';
-import { Route, Switch, HashRouter } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './Pages/Home';
-import './css/Header.css';
-import './css/Main.css';
-import Footer from './components/Footer';
-import About from './Pages/About';
-import Projects from './Pages/Projects';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import AnimationProvider from './context/animationContext/Provider';
 
-export default class App extends Component {
-  render() {
-    return (
-      <HashRouter>
+import Header from './components/Header';
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+
+import './App.css';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AnimationProvider>
         <Header />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
-        <Footer />
-      </HashRouter>
-    );
-  }
+      </AnimationProvider>
+    </BrowserRouter>
+  );
 }
+
+export default App;
