@@ -4,7 +4,8 @@
   align-items: center;
 }
 
-.menu .menu-nav p {
+.menu .menu-nav p,
+img {
   pointer-events: none;
 }
 
