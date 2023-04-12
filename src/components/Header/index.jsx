@@ -11,7 +11,6 @@ export default function Header() {
   const { handleNavigate } = useContext(animationContext);
   return (
     <header className="header">
-      <nav className="menu">
         <button
           type="button"
           className="none"
@@ -20,7 +19,6 @@ export default function Header() {
         >
             <img className="logo" src={logo} alt="logo" />
         </button>
-      </nav>
       <Socials />
       <Menu />
     </header>
