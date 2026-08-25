@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Higor Maranhão — Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://higormn.github.io/">
+    <img src="./public/og.png" alt="Higor Maranhão — Full Stack Developer" width="100%" />
+  </a>
+</p>
 
-## Available Scripts
+Portfólio profissional de **Higor Maranhão Nunes**, Full Stack Developer com foco em React, TypeScript, Node.js, .NET/C# e produtos SaaS/ERP.
 
-In the project directory, you can run:
+[Acessar o site](https://higormn.github.io/) · [LinkedIn](https://www.linkedin.com/in/higor-maranhao/) · [GitHub](https://github.com/HigorMN)
 
-### `npm start`
+## Sobre o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O site foi pensado para comunicar experiência profissional com clareza e permitir uma leitura rápida por recrutadores, lideranças técnicas e times de produto. A arquitetura é uma página única: todo o conteúdo relevante permanece acessível por âncoras, sem roteamento ou estado desnecessários.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Principais decisões:
 
-### `npm test`
+- Hierarquia editorial e navegação curta.
+- Experiência profissional apresentada como contexto de produto.
+- Curadoria de projetos públicos, em vez de uma galeria extensa.
+- Conteúdo separado da camada visual e tipado com TypeScript.
+- HTML semântico, skip link, foco visível e suporte a movimento reduzido.
+- Metadados completos para SEO e compartilhamento social.
+- Redirecionamento das antigas URLs para as novas seções.
+- Zero dependências de UI ou animação em runtime.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Stack
 
-### `npm run build`
+| Área       | Tecnologia                            |
+| ---------- | ------------------------------------- |
+| Interface  | React 19 + TypeScript                 |
+| Build      | Vite                                  |
+| Estilos    | CSS responsivo com custom properties  |
+| Qualidade  | ESLint + Prettier + TypeScript strict |
+| Testes     | Vitest + Testing Library              |
+| Publicação | GitHub Pages                          |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estrutura
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```text
+src/
+├── components/         # Elementos reutilizáveis e acessíveis
+├── sections/           # Seções independentes da página
+├── content/
+│   └── portfolio.ts   # Conteúdo e contratos tipados
+├── test/
+│   └── setup.ts       # Ambiente de testes
+├── App.test.tsx       # Jornadas essenciais
+├── App.tsx            # Composição semântica da página
+├── main.tsx           # Entrada da aplicação
+└── styles.css         # Sistema visual e responsividade
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+public/
+├── 404.html           # Compatibilidade com URLs antigas
+├── og.png             # Preview para redes sociais
+├── robots.txt
+└── sitemap.xml
+```
 
-### `npm run eject`
+## Desenvolvimento
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Requer Node.js `20.19` ou superior.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Qualidade
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+O comando abaixo executa lint, testes, checagem de tipos e build de produção:
 
-## Learn More
+```bash
+npm run validate
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Comandos individuais:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run lint
+npm run test
+npm run build
+```
 
-### Code Splitting
+## Publicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O projeto mantém o fluxo do GitHub Pages:
 
-### Analyzing the Bundle Size
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+O build de produção é gerado em `dist/` e publicado na branch configurada pelo pacote `gh-pages`.
 
-### Making a Progressive Web App
+## Conteúdo profissional
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Informações sobre produtos internos foram descritas apenas no nível necessário para explicar contexto, responsabilidades e decisões de engenharia. Nenhum código, dado ou interface proprietária é exposto neste repositório.
