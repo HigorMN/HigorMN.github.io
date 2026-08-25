@@ -24,7 +24,7 @@ export const navigation = [
 ] as const;
 
 export const proofPoints = [
-  { value: '3+', label: 'anos em produtos web' },
+  { value: '4+', label: 'anos em produtos web' },
   { value: 'SaaS · ERP', label: 'contextos de negócio' },
   { value: 'Front → Back', label: 'visão ponta a ponta' },
 ] as const;
